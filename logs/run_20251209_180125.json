@@ -1,0 +1,1016 @@
+{
+  "run_id": "a27dc471",
+  "start_time": "2025-12-09 18:01:25.567756",
+  "end_time": "2025-12-09 18:04:21.923631",
+  "status": "completed",
+  "topics_processed": 5,
+  "topics_published": 0,
+  "topics_failed": 0,
+  "agent_decisions": [
+    {
+      "agent": "TrendFetcher",
+      "action": "fetch_trends",
+      "input_summary": "Sources: google_trends, newsapi, search",
+      "output_summary": "Found 30 trending candidates",
+      "timestamp": "2025-12-09 18:01:32.271614",
+      "duration_ms": 6702
+    },
+    {
+      "agent": "TopicFilter",
+      "action": "prefilter",
+      "input_summary": "Input: 30 candidates",
+      "output_summary": "After prefilter: 25 candidates",
+      "timestamp": "2025-12-09 18:01:32.273993",
+      "duration_ms": null
+    },
+    {
+      "agent": "TopicFilter",
+      "action": "filter_topics",
+      "input_summary": "Processed 30 candidates",
+      "output_summary": "Selected 10 publishable topics",
+      "timestamp": "2025-12-09 18:01:36.207723",
+      "duration_ms": 3935
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Samsung One UI 8.5 Update: What's New",
+      "output_summary": "Generated 3 keywords, slug: samsung-one-ui-8-5-update",
+      "timestamp": "2025-12-09 18:01:36.947157",
+      "duration_ms": 738
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Samsung One UI 8.5 Update: Top Features, Intent: news",
+      "output_summary": "Created outline with 5 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:01:38.707987",
+      "duration_ms": 1760
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Samsung One UI 8.5 Update: Top Features",
+      "output_summary": "Found 7 relevant sources",
+      "timestamp": "2025-12-09 18:01:47.879318",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Samsung One UI 8.5 Update: Top Features, Sections: 5",
+      "output_summary": "Generated 6372 chars with 7 citations",
+      "timestamp": "2025-12-09 18:01:50.378440",
+      "duration_ms": 11670
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 7 citations",
+      "output_summary": "Verified: 2, Failed: 5",
+      "timestamp": "2025-12-09 18:01:50.387097",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 6372 chars",
+      "output_summary": "Issues: 6, Auto-publish: False",
+      "timestamp": "2025-12-09 18:01:50.387920",
+      "duration_ms": 9
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Samsung One UI 8.5 Update: Top Features, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/2",
+      "timestamp": "2025-12-09 18:02:03.815275",
+      "duration_ms": 4488
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Comcast's WBD Offer and Peacock's Future",
+      "output_summary": "Generated 3 keywords, slug: comcast-wbd-offer-peacock-future",
+      "timestamp": "2025-12-09 18:02:04.545932",
+      "duration_ms": 729
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Comcast WBD Offer: What's Next for Peacock?, Intent: news",
+      "output_summary": "Created outline with 5 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:02:06.415320",
+      "duration_ms": 1869
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Comcast WBD Offer: What's Next for Peacock?",
+      "output_summary": "Found 10 relevant sources",
+      "timestamp": "2025-12-09 18:02:24.965618",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Comcast WBD Offer: What's Next for Peacock?, Sections: 5",
+      "output_summary": "Generated 7501 chars with 10 citations",
+      "timestamp": "2025-12-09 18:02:27.870080",
+      "duration_ms": 21454
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 10 citations",
+      "output_summary": "Verified: 1, Failed: 8",
+      "timestamp": "2025-12-09 18:02:27.881298",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 7501 chars",
+      "output_summary": "Issues: 13, Auto-publish: False",
+      "timestamp": "2025-12-09 18:02:27.882037",
+      "duration_ms": 11
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Comcast WBD Offer: What's Next for Peacock?, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/3",
+      "timestamp": "2025-12-09 18:02:41.721240",
+      "duration_ms": 4772
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: iOS 26.2 Launch Imminent for iPhone",
+      "output_summary": "Generated 3 keywords, slug: ios-26-2-launch-imminent-iphone",
+      "timestamp": "2025-12-09 18:02:42.517677",
+      "duration_ms": 795
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: iOS 26.2 Launching Soon for iPhone, Intent: news",
+      "output_summary": "Created outline with 5 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:02:44.268919",
+      "duration_ms": 1751
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: iOS 26.2 Launching Soon for iPhone",
+      "output_summary": "Found 7 relevant sources",
+      "timestamp": "2025-12-09 18:02:58.365379",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: iOS 26.2 Launching Soon for iPhone, Sections: 5",
+      "output_summary": "Generated 5540 chars with 7 citations",
+      "timestamp": "2025-12-09 18:03:00.381493",
+      "duration_ms": 16112
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 7 citations",
+      "output_summary": "Verified: 1, Failed: 4",
+      "timestamp": "2025-12-09 18:03:00.384142",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 5540 chars",
+      "output_summary": "Issues: 4, Auto-publish: False",
+      "timestamp": "2025-12-09 18:03:00.384603",
+      "duration_ms": 2
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: iOS 26.2 Launching Soon for iPhone, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/4",
+      "timestamp": "2025-12-09 18:03:14.487949",
+      "duration_ms": 4912
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Apple Silicon Chief Johny Srouji Stays at Apple",
+      "output_summary": "Generated 3 keywords, slug: johny-srouji-stays-apple-silicon-chief",
+      "timestamp": "2025-12-09 18:03:15.124086",
+      "duration_ms": 635
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Johny Srouji to Stay as Apple Silicon Chief, Intent: news",
+      "output_summary": "Created outline with 5 sections, 2 facts to verify",
+      "timestamp": "2025-12-09 18:03:16.725006",
+      "duration_ms": 1600
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Johny Srouji to Stay as Apple Silicon Chief",
+      "output_summary": "Found 6 relevant sources",
+      "timestamp": "2025-12-09 18:03:28.519744",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Johny Srouji to Stay as Apple Silicon Chief, Sections: 5",
+      "output_summary": "Generated 5863 chars with 6 citations",
+      "timestamp": "2025-12-09 18:03:31.014197",
+      "duration_ms": 14288
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 6 citations",
+      "output_summary": "Verified: 0, Failed: 6",
+      "timestamp": "2025-12-09 18:03:31.020376",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 5863 chars",
+      "output_summary": "Issues: 8, Auto-publish: False",
+      "timestamp": "2025-12-09 18:03:31.021111",
+      "duration_ms": 6
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Johny Srouji to Stay as Apple Silicon Chief, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/5",
+      "timestamp": "2025-12-09 18:03:44.863946",
+      "duration_ms": 4613
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Nvidia H200 Chips Exports to China",
+      "output_summary": "Generated 3 keywords, slug: nvidia-h200-chips-exports-to-china",
+      "timestamp": "2025-12-09 18:03:45.533010",
+      "duration_ms": 668
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Nvidia H200 China Exports, Intent: news",
+      "output_summary": "Created outline with 5 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:03:47.381472",
+      "duration_ms": 1848
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Nvidia H200 China Exports",
+      "output_summary": "Found 7 relevant sources",
+      "timestamp": "2025-12-09 18:04:05.743927",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Nvidia H200 China Exports, Sections: 5",
+      "output_summary": "Generated 6336 chars with 7 citations",
+      "timestamp": "2025-12-09 18:04:07.877689",
+      "duration_ms": 20495
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 7 citations",
+      "output_summary": "Verified: 0, Failed: 7",
+      "timestamp": "2025-12-09 18:04:07.886999",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 6336 chars",
+      "output_summary": "Issues: 7, Auto-publish: False",
+      "timestamp": "2025-12-09 18:04:07.887484",
+      "duration_ms": 9
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Nvidia H200 China Exports, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/6",
+      "timestamp": "2025-12-09 18:04:21.923281",
+      "duration_ms": 4775
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Samsung One UI 8.5 Update: What's New",
+      "slug": "samsung-one-ui-8-5-update",
+      "title": "Samsung One UI 8.5 Update: Top Features",
+      "status": "pr_created",
+      "commit_sha": "52a8dc35c87beeba5dde331a2e5c138b037172ae",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/2",
+      "post_path": "content/posts/2025-12-09-samsung-one-ui-8-5-update.md",
+      "image_path": "assets/images/2025-12-09/samsung-one-ui-8-5-update.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://9to5google.com/2025/12/08/samsung-galaxy-one-ui-8-5-update-everything-new/",
+          "snippet": "The Clock app now supports adding a weather background for your daily alarm, letting you quickly see",
+          "title": "Here's everything new in Samsung's One UI 8.5 update ...",
+          "accessed_date": "2025-12-09 18:01:36.208448"
+        },
+        {
+          "number": 2,
+          "url": "https://news.samsung.com/global/samsung-launches-one-ui-8-5-beta-for-next-level-ease-of-use",
+          "snippet": "One UI 8.5: What's New for Content Creation? One UI 8.5 makes creating and sharing content more intu",
+          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of ...",
+          "accessed_date": "2025-12-09 18:01:36.208448"
+        },
+        {
+          "number": 3,
+          "url": "https://news.samsung.com/us/samsung-launches-one-ui-8-5-beta-next-level-ease-use/",
+          "snippet": "One UI 8.5 enables users to do more with less effort, featuring upgrades that enable more seamless a",
+          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of ...",
+          "accessed_date": "2025-12-09 18:01:36.208448"
+        },
+        {
+          "number": 4,
+          "url": "https://www.sammyfans.com/2025/12/08/one-ui-8-5-beta-2-heres-when-it-could-come-and-kickstart-phase-2-rollout/",
+          "snippet": "According to the latest information shared by @ya_sking12767, Samsung will release One UI 8.5 Beta 2",
+          "title": "One UI 8.5 Beta 2: Here's when it could come and kickstart ...",
+          "accessed_date": "2025-12-09 18:01:36.208448"
+        },
+        {
+          "number": 5,
+          "url": "https://www.sammobile.com/news/samsung-one-ui-8-5-beta-program-countries/",
+          "snippet": "The first beta firmware will arrive in Korea, Germany, the US, and the UK. India and Poland will joi",
+          "title": "Every country eligible for Samsung's One UI 8.5 beta ...",
+          "accessed_date": "2025-12-09 18:01:36.208448"
+        },
+        {
+          "number": 6,
+          "url": "https://www.sammobile.com/news/every-galaxy-device-that-will-receive-one-ui-8-5-update/",
+          "snippet": "Every Galaxy device that will receive the One UI 8.5 update \u00b7 Galaxy A73 \u00b7 Galaxy A56 \u00b7 Galaxy F56 \u00b7",
+          "title": "Every Galaxy device that will receive the One UI 8.5 update",
+          "accessed_date": "2025-12-09 18:01:36.208448"
+        },
+        {
+          "number": 7,
+          "url": "https://sammyguru.com/eligible-galaxy-devices-one-ui-8-5-update/",
+          "snippet": "Which Galaxy devices will be receiving One UI 8.5 update? ; S series. Galaxy S25 Ultra \u00b7 Galaxy S25 ",
+          "title": "Check If Your Galaxy Device Will Receive One UI 8.5 Update",
+          "accessed_date": "2025-12-09 18:01:36.208448"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: Additionally, new widget features allow for a more...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: According to Samsung, these updates enable users t...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: For those eager to try the beta version, Samsung h...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: According to Samsung's usual firmware update polic...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [7]",
+          "description": "Could not verify claim against source: According to Samsung's usual firmware update polic...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/2025/12/08/one-ui-8-5-beta...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:01:36.208448"
+    },
+    {
+      "topic": "Comcast's WBD Offer and Peacock's Future",
+      "slug": "comcast-wbd-offer-peacock-future",
+      "title": "Comcast WBD Offer: What's Next for Peacock?",
+      "status": "pr_created",
+      "commit_sha": "ab3fe9ded279e4db67e6f5c5c73c1b65e340c707",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/3",
+      "post_path": "content/posts/2025-12-09-comcast-wbd-offer-peacock-future.md",
+      "image_path": "assets/images/2025-12-09/comcast-wbd-offer-peacock-future.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://www.cnbc.com/2025/12/08/comcast-president-unsuccessful-wbd-offer-future-of-peacock.html",
+          "snippet": "Comcast made multiple offers for Warner Bros. Discovery's streaming and studio assets before Netflix",
+          "title": "Comcast president outlines unsuccessful WBD offer, future ...",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 2,
+          "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros.",
+          "snippet": "Under the terms of the agreement, WBD shareholders will receive $23.25 in cash and $4.50 in Netflix,",
+          "title": "Proposed acquisition of Warner Bros.",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 3,
+          "url": "https://www.ainvest.com/news/comcast-strategic-exit-wbd-bidding-implications-peacock-future-2512/",
+          "snippet": "While the failed bid leaves Peacock's future unaltered for now, it raises critical questions about t",
+          "title": "Comcast's Strategic Exit from WBD Bidding and ...",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 4,
+          "url": "https://www.reddit.com/r/MediaMergers/comments/1phpd1u/comcast_president_outlines_unsuccessful_wbd_offer/",
+          "snippet": "Comcast president outlines unsuccessful WBD offer and future of NBC's Peacock ... Comcast's Bid Seek",
+          "title": "Comcast president outlines unsuccessful WBD offer and ...",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 5,
+          "url": "https://deadline.com/2025/12/comcast-mike-cavanagh-on-bid-for-warner-bros-1236641747/",
+          "snippet": "Mike Cavanagh Says Comcast Bid For Warner Bros. Was Light On Cash Versus Rival Offers \u2013 \u201cWe Didn't E",
+          "title": "Mike Cavanagh Says Comcast Bid For Warner Bros. Light ...",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 6,
+          "url": "https://www.reuters.com/legal/transactional/paramount-makes-1084-billion-bid-warner-bros-discovery-2025-12-08/",
+          "snippet": "The offer represents a 139% premium over the company's value from before the buyout talks started, a",
+          "title": "Warner Bros fight heats up with $108 billion hostile bid ...",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 7,
+          "url": "https://www.reddit.com/r/boxoffice/comments/1ph3uyi/comcast_pulls_out_from_all_further/",
+          "snippet": "Its latest offer this past week, for all of WBD, was an impressive $30 a share\u2014all cash\u2014giving WBD a",
+          "title": "Comcast Pulls Out From All Further WarnerDiscovery ...",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 8,
+          "url": "https://www.emarketer.com/content/peacock-s-subscription-growth-problem-clouds-its-ad-appeal",
+          "snippet": "Peacock reduced losses to $217 million in Q3 compared with $436 million in 2024, Subscriber growth w",
+          "title": "Peacock's subscription growth problem clouds its ad appeal",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 9,
+          "url": "https://www.hollywoodreporter.com/tv/tv-news/peacock-has-41-million-paid-subscribers-nba-taylor-sheridan-1236413850/",
+          "snippet": "For the entirety of 2025, Peacock has been stuck at 41 million subscribers. Though there has been eb",
+          "title": "Is Peacock Stuck at 41 Million Subscribers?",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        },
+        {
+          "number": 10,
+          "url": "https://theankler.com/p/peacock-cant-find-growth-comcast?utm_medium=email&action=share",
+          "snippet": "PEACOCK hasn't had any subscriber growth in 2025 through 6 months \u2014 It added 5M subs in a year (incl",
+          "title": "\u2600\ufe0fPEACOCK Can't Find Growth, COMCAST Sees Trump- ...",
+          "accessed_date": "2025-12-09 18:02:03.815927"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: The rejection marks a significant setback for Comc...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: This acquisition would have given Comcast a compet...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: The outcome of the Comcast-WBD deal will have far-...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: As the streaming market continues to grow, compani...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [7]",
+          "description": "Could not verify claim against source: According to reports, Comcast's latest offer was a...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [8]",
+          "description": "Could not verify claim against source: The streaming wars are heating up, and Peacock's s...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [9]",
+          "description": "Could not verify claim against source: However, Peacock's subscriber growth has stalled, ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [10]",
+          "description": "Could not verify claim against source: As the market continues to evolve, one thing is cl...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": ")\n   > Under the terms of the ...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "25 in cash and $4...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "[Warner Bros fight heats up wi...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/legal/transactional/paramo...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/r/boxoffice/comments/1ph3u...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:02:03.815927"
+    },
+    {
+      "topic": "iOS 26.2 Launch Imminent for iPhone",
+      "slug": "ios-26-2-launch-imminent-iphone",
+      "title": "iOS 26.2 Launching Soon for iPhone",
+      "status": "pr_created",
+      "commit_sha": "98599570437d002bc4d4d1429c4541d5d205b2b6",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/4",
+      "post_path": "content/posts/2025-12-09-ios-26-2-launch-imminent-iphone.md",
+      "image_path": "assets/images/2025-12-09/ios-26-2-launch-imminent-iphone.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://9to5mac.com/2025/12/08/ios-26-2-launch-appears-imminent-for-iphone-per-leaker/",
+          "snippet": "Leaked build numbers indicate iOS 26.2 is about to launch. Last week Apple shipped the RC (release c",
+          "title": "iOS 26.2 launch appears imminent for iPhone, per leaker",
+          "accessed_date": "2025-12-09 18:02:41.721992"
+        },
+        {
+          "number": 2,
+          "url": "https://www.northjersey.com/story/news/2025/12/08/when-is-ios-26-2-out-when-to-update-iphone-ipad-2025-ios-26-2-release-date-time-apple-ios-26-1/87668361007/",
+          "snippet": "Get your iPhone ready for a software upgrade: Apple's iOS 26.2 update will release as soon as today,",
+          "title": "When is Apple iOS 26.2 coming out? iPhone update, time ...",
+          "accessed_date": "2025-12-09 18:02:41.721992"
+        },
+        {
+          "number": 3,
+          "url": "https://www.gsmarena.com/second_ios_262_release_candidate_now_seeding_release_imminent-news-70628.php",
+          "snippet": "Second iOS 26.2 release candidate now seeding, release imminent ... The first iOS 26.2 beta came out",
+          "title": "Second iOS 26.2 release candidate now seeding ...",
+          "accessed_date": "2025-12-09 18:02:41.721992"
+        },
+        {
+          "number": 4,
+          "url": "https://www.forbes.com/sites/davidphelan/2025/12/08/ios-26-2-surprise-change-means-next-iphone-critical-update-is-almost-here-release-date/",
+          "snippet": "The countdown to the next major iPhone update is on and it looks like it's just a matter of hours un",
+          "title": "iOS 26 2: Surprise Change Means Next iPhone Critical ...",
+          "accessed_date": "2025-12-09 18:02:41.721992"
+        },
+        {
+          "number": 5,
+          "url": "https://www.macrumors.com/2025/12/05/new-things-iphone-can-do-ios-26-2/",
+          "snippet": "Manage Safety Alerts\u200b\u200b iOS 26.2 introduces an \"Enhanced Safety Alerts\" section in Notifications sett",
+          "title": "15 New Things Your iPhone Can Do in iOS 26.2",
+          "accessed_date": "2025-12-09 18:02:41.721992"
+        },
+        {
+          "number": 6,
+          "url": "https://www.forbes.com/sites/zakdoffman/2025/12/09/apple-ios-262-1-billion-iphone-users-must-install-new-update/",
+          "snippet": "iOS 26.2 also delivers new AirDrop security and new emergency alerts. It will also fix a raft of sec",
+          "title": "Apple iOS 26.2\u20141 Billion iPhone Users Must Install New ...",
+          "accessed_date": "2025-12-09 18:02:41.721992"
+        },
+        {
+          "number": 7,
+          "url": "https://support.apple.com/guide/iphone/iphone-models-compatible-with-ios-26-iphe3fa5df43/ios",
+          "snippet": "iPhone models compatible with iOS 26. This guide helps you get started using iPhone and discover all",
+          "title": "iPhone models compatible with iOS 26",
+          "accessed_date": "2025-12-09 18:02:41.721992"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: 2 is imminent, according to a recent leak from a r...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: However, based on recent reports, it seems that th...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: New emojis and keyboard shortcuts will also be add...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: Enhanced security features will be introduced to p...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        }
+      ],
+      "publish_time": "2025-12-09 18:02:41.721992"
+    },
+    {
+      "topic": "Apple Silicon Chief Johny Srouji Stays at Apple",
+      "slug": "johny-srouji-stays-apple-silicon-chief",
+      "title": "Johny Srouji to Stay as Apple Silicon Chief",
+      "status": "pr_created",
+      "commit_sha": "0010d7f72636c192ce0275988ff6c4cc16c58109",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/5",
+      "post_path": "content/posts/2025-12-09-johny-srouji-stays-apple-silicon-chief.md",
+      "image_path": "assets/images/2025-12-09/johny-srouji-stays-apple-silicon-chief.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://9to5mac.com/2025/12/08/apple-silicon-chief-johny-srouji-reportedly-commits-to-staying-at-apple-for-now/",
+          "snippet": "Apple Silicon chief Johny Srouji reportedly commits to staying at Apple for now. Johny Srouji isn't ",
+          "title": "Apple Silicon chief Johny Srouji reportedly commits to ...",
+          "accessed_date": "2025-12-09 18:03:14.488712"
+        },
+        {
+          "number": 2,
+          "url": "https://www.macrumors.com/2025/12/08/johny-srouji-provides-career-update/",
+          "snippet": "Apple's chipmaking chief Johny Srouji has reportedly indicated that he plans to continue working for",
+          "title": "Apple's Chipmaking Chief Johny Srouji Responds to ...",
+          "accessed_date": "2025-12-09 18:03:14.488712"
+        },
+        {
+          "number": 3,
+          "url": "https://www.cnbc.com/2025/12/08/apple-chips-johny-srouji.html",
+          "snippet": "Apple chip leader Johny Srouji said in a memo to staff on Monday that he doesn't plan on leaving the",
+          "title": "Apple's chip boss squashes exit rumors, says he's not ...",
+          "accessed_date": "2025-12-09 18:03:14.488712"
+        },
+        {
+          "number": 4,
+          "url": "https://9to5mac.com/2025/12/06/apple-chip-lead-johny-srouji-considering-leaving-company-report/",
+          "snippet": "According to a new report from Bloomberg, Apple's hardware technologies SVP Johny Srouji is 'serious",
+          "title": "Report: Johny Srouji contemplating leaving Apple ...",
+          "accessed_date": "2025-12-09 18:03:14.488712"
+        },
+        {
+          "number": 5,
+          "url": "https://www.macrumors.com/guide/upcoming-apple-products/",
+          "snippet": "Our guide to upcoming products provides an overview of all of the new devices that we're expecting t",
+          "title": "Upcoming Apple Products Guide: What's Coming in 2025",
+          "accessed_date": "2025-12-09 18:03:14.488712"
+        },
+        {
+          "number": 6,
+          "url": "https://sea.mashable.com/mobile/41058/four-apple-product-launches-to-expect-in-the-near-future",
+          "snippet": "Apple's next big iPhone launch is still almost a year away, but there's plenty to look forward to be",
+          "title": "Four Apple product launches to expect in the near future",
+          "accessed_date": "2025-12-09 18:03:14.488712"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: slug: johny-srouji-stays-apple-silicon-chief\ntags:...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: This decision could also influence Apple's strateg...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: ## Apple Silicon Progress and Future Plans\n\nApple'...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: This move might also signal stability for other ke...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: ## What's Next for Apple Silicon\n\nApple is expecte...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: With Srouji at the helm, Apple is poised to contin...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/2025/12/06/apple-chip-lead...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "[Upcoming Apple Products Guide...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:03:14.488712"
+    },
+    {
+      "topic": "Nvidia H200 Chips Exports to China",
+      "slug": "nvidia-h200-chips-exports-to-china",
+      "title": "Nvidia H200 China Exports",
+      "status": "pr_created",
+      "commit_sha": "4122b276d1eed9305037e8aec80c28cc85e8a158",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/6",
+      "post_path": "content/posts/2025-12-09-nvidia-h200-chips-exports-to-china.md",
+      "image_path": "assets/images/2025-12-09/nvidia-h200-chips-exports-to-china.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://www.semafor.com/article/12/09/2025/trump-says-nvidia-can-sell-h200-ai-chips-to-china",
+          "snippet": "Nvidia will be given permission to ship the advanced chips to \u201capproved customers\u201d in China and othe",
+          "title": "Trump says Nvidia can sell H200 AI chips to China",
+          "accessed_date": "2025-12-09 18:03:44.864458"
+        },
+        {
+          "number": 2,
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-wins-h200-exports-to-china-us-department-of-commerce-set-to-ease-restrictions-for-full-hopper-ai-gpu",
+          "snippet": "The U.S. government is reportedly preparing to let Nvidia ship its H200 accelerators to China, a mov",
+          "title": "Nvidia reportedly wins H200 exports to China",
+          "accessed_date": "2025-12-09 18:03:44.864458"
+        },
+        {
+          "number": 3,
+          "url": "https://www.reuters.com/world/china/us-open-up-exports-nvidia-h200-chips-china-semafor-reports-2025-12-08/",
+          "snippet": "US has concerns over AI chips aiding China's military ... China would use the chips to strengthen it",
+          "title": "US to allow Nvidia H200 chip shipments to China, Trump ...",
+          "accessed_date": "2025-12-09 18:03:44.864458"
+        },
+        {
+          "number": 4,
+          "url": "https://nypost.com/2025/12/09/business/china-to-restrict-access-to-nvidia-chips-as-trump-looks-to-lift-export-curbs-report/",
+          "snippet": "Exports of Nvidia's H200 chips \u2013 its second-best generation of AI chips \u2013 were initially banned unde",
+          "title": "China to restrict access to Nvidia chips as Trump looks ...",
+          "accessed_date": "2025-12-09 18:03:44.864458"
+        },
+        {
+          "number": 5,
+          "url": "https://www.cnbc.com/2025/12/09/trump-nvidia-chips-h200-china-us-ai-race.html",
+          "snippet": "... Nvidia were allowed to export H200 chips. The H200 can help many Chinese AI developers improve t",
+          "title": "Trump's pivot on Nvidia chips gives China a leg up over ...",
+          "accessed_date": "2025-12-09 18:03:44.864458"
+        },
+        {
+          "number": 6,
+          "url": "https://www.nbcnews.com/business/corporations/trump-nvidia-h200-chips-ai-china-rcna248107",
+          "snippet": "Nvidia's H200 is a generation behind its latest Blackwell chip, which is considered among the most a",
+          "title": "Trump says he will allow Nvidia to sell some AI chips in ...",
+          "accessed_date": "2025-12-09 18:03:44.864458"
+        },
+        {
+          "number": 7,
+          "url": "https://www.datacenterdynamics.com/en/news/trump-allows-sale-of-nvidias-h200-chip-to-china/",
+          "snippet": "Posting on Truth Social, Trump said that the US would allow Nvidia to sell H200s to \u201capproved custom",
+          "title": "Trump allows sale of Nvidia's H200 chip to China - DCD",
+          "accessed_date": "2025-12-09 18:03:44.864458"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: The US Commerce Department has announced plans to ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: Nvidia may regain market share in China, which cou...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: However, its export has been restricted due to con...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: Others worry about the potential misuse of the chi...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: Chinese tech firms may also benefit from increased...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: The US Commerce Department may impose additional c...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [7]",
+          "description": "Could not verify claim against source: While the decision may benefit Nvidia and Chinese ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        }
+      ],
+      "publish_time": "2025-12-09 18:03:44.864458"
+    }
+  ],
+  "errors": [],
+  "config_snapshot": {
+    "github": {
+      "token": "ghp_****1Yih",
+      "repo": "shradder-dot-root/TrendBloggerAgent",
+      "branch": "main",
+      "author_name": "TrendBot",
+      "author_email": "trendbot@yourdomain.com",
+      "auto_publish": false,
+      "publish_mode": "branch_pr"
+    },
+    "llm": {
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "api_key": "gsk_****IJ9d",
+      "azure_endpoint": "",
+      "azure_deployment": "",
+      "azure_api_version": "2024-02-01",
+      "max_tokens_per_request": 4096,
+      "requests_per_minute": 30
+    },
+    "search": {
+      "provider": "serpapi",
+      "api_key": "408d****5895",
+      "bing_endpoint": "https://api.bing.microsoft.com/v7.0/search",
+      "requests_per_minute": 100,
+      "cache_ttl_hours": 24
+    },
+    "news": {
+      "provider": "newsapi",
+      "api_key": "c3cb****87f7",
+      "requests_per_day": 100
+    },
+    "image": {
+      "provider": "unsplash",
+      "unsplash_access_key": "your****here",
+      "pexels_api_key": "your****here",
+      "dalle_api_key": "",
+      "stability_api_key": "",
+      "default_size": "1024x512",
+      "prefer_royalty_free": true
+    },
+    "trends": {
+      "enabled": true,
+      "geo": "US",
+      "timeframe": "now 1-d"
+    },
+    "reddit": {
+      "enabled": false,
+      "client_id": "",
+      "client_secret": "",
+      "user_agent": "TrendBloggerAgent/1.0",
+      "subreddits": [
+        "technology",
+        "news",
+        "worldnews"
+      ]
+    },
+    "content": {
+      "default_length_min": 700,
+      "default_length_max": 1200,
+      "news_length_min": 450,
+      "news_length_max": 700,
+      "howto_length_min": 900,
+      "howto_length_max": 1500,
+      "topics_per_run": 10,
+      "max_candidates": 30,
+      "posts_folder": "content/posts",
+      "images_folder": "assets/images",
+      "logs_folder": "logs"
+    },
+    "schedule": {
+      "enabled": true,
+      "cron": "30 3 * * *",
+      "timezone": "UTC"
+    },
+    "logging": {
+      "level": "INFO",
+      "format": "json",
+      "mask_secrets": true,
+      "log_to_file": true,
+      "log_to_console": true
+    },
+    "safety": {
+      "min_viable_topics": 5,
+      "max_retries": 2,
+      "retry_backoff_base": 2,
+      "require_citation": true,
+      "plagiarism_check": false,
+      "auto_publish_after_days": 30
+    },
+    "rate_limits": {
+      "search_rpm": 60,
+      "news_rpd": 100,
+      "llm_rpm": 20,
+      "github_rpm": 30,
+      "image_rpm": 30
+    }
+  }
+}
