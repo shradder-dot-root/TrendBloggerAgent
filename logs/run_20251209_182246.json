@@ -1,0 +1,349 @@
+{
+  "run_id": "20706896",
+  "start_time": "2025-12-09 18:22:46.124235",
+  "end_time": "2025-12-09 18:23:15.506694",
+  "status": "completed",
+  "topics_processed": 1,
+  "topics_published": 1,
+  "topics_failed": 0,
+  "agent_decisions": [
+    {
+      "agent": "TrendFetcher",
+      "action": "fetch_trends",
+      "input_summary": "Sources: google_trends, newsapi, search",
+      "output_summary": "Found 30 trending candidates",
+      "timestamp": "2025-12-09 18:18:19.150771",
+      "duration_ms": 3896
+    },
+    {
+      "agent": "TrendFetcher",
+      "action": "fetch_trends",
+      "input_summary": "Sources: google_trends, newsapi, search",
+      "output_summary": "Found 30 trending candidates",
+      "timestamp": "2025-12-09 18:22:47.406666",
+      "duration_ms": 1281
+    },
+    {
+      "agent": "TopicFilter",
+      "action": "prefilter",
+      "input_summary": "Input: 30 candidates",
+      "output_summary": "After prefilter: 25 candidates",
+      "timestamp": "2025-12-09 18:22:47.409449",
+      "duration_ms": null
+    },
+    {
+      "agent": "TopicFilter",
+      "action": "filter_topics",
+      "input_summary": "Processed 30 candidates",
+      "output_summary": "Selected 10 publishable topics",
+      "timestamp": "2025-12-09 18:22:50.643997",
+      "duration_ms": 3236
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Samsung One UI 8.5 Update: What's New",
+      "output_summary": "Generated 3 keywords, slug: samsung-one-ui-8-5-update",
+      "timestamp": "2025-12-09 18:22:51.340154",
+      "duration_ms": 694
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Samsung One UI 8.5 Update: All You Need to Know, Intent: news",
+      "output_summary": "Created outline with 6 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:22:52.893856",
+      "duration_ms": 1553
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Samsung One UI 8.5 Update: All You Need to Know",
+      "output_summary": "Found 10 relevant sources",
+      "timestamp": "2025-12-09 18:23:02.425629",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Samsung One UI 8.5 Update: All You Need to Know, Sections: 6",
+      "output_summary": "Generated 6872 chars with 10 citations",
+      "timestamp": "2025-12-09 18:23:04.713301",
+      "duration_ms": 11819
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 10 citations",
+      "output_summary": "Verified: 0, Failed: 7",
+      "timestamp": "2025-12-09 18:23:04.717888",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 6872 chars",
+      "output_summary": "Issues: 8, Auto-publish: False",
+      "timestamp": "2025-12-09 18:23:04.718403",
+      "duration_ms": 4
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish_log",
+      "input_summary": "Run ID: cd4bf95a",
+      "output_summary": "Published to logs/run_20251209_181830.json",
+      "timestamp": "2025-12-09 18:21:15.820028",
+      "duration_ms": null
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Samsung One UI 8.5 Update: All You Need to Know, Files: 1",
+      "output_summary": "Status: published, PR: N/A",
+      "timestamp": "2025-12-09 18:23:15.506283",
+      "duration_ms": 2469
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Samsung One UI 8.5 Update: What's New",
+      "slug": "samsung-one-ui-8-5-update",
+      "title": "Samsung One UI 8.5 Update: All You Need to Know",
+      "status": "published",
+      "commit_sha": "49e1063e212b1f94bf34ab4336eef9a10a137a6e",
+      "pr_url": null,
+      "post_path": "content/posts/2025-12-09-samsung-one-ui-8-5-update.md",
+      "image_path": "assets/images/2025-12-09/samsung-one-ui-8-5-update.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://9to5google.com/2025/12/08/samsung-galaxy-one-ui-8-5-update-everything-new/",
+          "snippet": "The Clock app now supports adding a weather background for your daily alarm, letting you quickly see",
+          "title": "Here's everything new in Samsung's One UI 8.5 update ...",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 2,
+          "url": "https://news.samsung.com/global/samsung-launches-one-ui-8-5-beta-for-next-level-ease-of-use",
+          "snippet": "One UI 8.5: What's New for Content Creation? One UI 8.5 makes creating and sharing content more intu",
+          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of ...",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 3,
+          "url": "https://news.samsung.com/us/samsung-launches-one-ui-8-5-beta-next-level-ease-use/",
+          "snippet": "One UI 8.5 enables users to do more with less effort, featuring upgrades that enable more seamless a",
+          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of ...",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 4,
+          "url": "https://9to5google.com/2025/12/08/samsung-one-ui-8-5-update-beta-new-features/",
+          "snippet": "One UI 8.5 is Samsung's next major update for Galaxy devices, though it's still based on Android 16 ",
+          "title": "Samsung releases One UI 8.5 beta for Galaxy S25 series",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 5,
+          "url": "https://www.standard.com/brokers-advisors/annuities/annuity-buzz/economic-update-review-fourth-quarter-2024",
+          "snippet": "With the 2024 election finally behind us, the U.S. economy appears to be navigating a period of caut",
+          "title": "Economic Update: A Review of Fourth Quarter 2024",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 6,
+          "url": "https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/release-24-q4/24-q4-release-overview",
+          "snippet": "The release for April, 2024 reads as 24.4. Monthly and quarterly releases are planned to be availabl",
+          "title": "Fourth Quarter 2024 release overview | Adobe Workfront",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 7,
+          "url": "https://simonquickadvisors.com/insights/2024-q4-market-update/",
+          "snippet": "After peaking at over 9% year-over-year in 2022, the rate of inflation declined significantly to 2.4",
+          "title": "2024 Q4 Market Update",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 8,
+          "url": "https://www.samsung.com/us/smartphones/galaxy-s23-ultra-lite-no-3-party/",
+          "snippet": "Supported on S23 Series devices, S22 Series devices, S21 Ultra, S20 Ultra, Note20 Ultra, Z Fold4, Z ",
+          "title": "Galaxy S23 Ultra",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 9,
+          "url": "https://www.samsungknox.com/en/knox-platform/supported-devices",
+          "snippet": "Galaxy S22. Galaxy S22 is an Android Enterprise Recommended device. OS version update guaranteed up ",
+          "title": "Device Compatibility Knox Solutions",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        },
+        {
+          "number": 10,
+          "url": "https://www.samsung.com/au/support/mobile-devices/esim-compatibility/?srsltid=AfmBOooWoxd3d2fjRbXeJCfZGfThgEKM-w2Gy4f3fJh0GH6qrrhfEL2W",
+          "snippet": "An eSIM or Embedded SIM is a SIM that is built into your compatible Galaxy Phone or Tab. It allows y",
+          "title": "Which Galaxy Phones Support an eSIM?",
+          "accessed_date": "2025-12-09 18:22:50.645509"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: The update also includes a redesigned user interfa...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: One of the significant improvements is the enhance...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: The update includes enhanced biometric security fe...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: ## Known Issues and Fixes\n\nAs with any major updat...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: 5 update, based on Android 14, is expected to roll...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: 5 update will be available over-the-air (OTA) for ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [8]",
+          "description": "Could not verify claim against source: Compatible devices include the Samsung Galaxy S23 ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/insights/2024-q4-market-up...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:22:50.645509"
+    }
+  ],
+  "errors": [],
+  "config_snapshot": {
+    "github": {
+      "token": "ghp_****1Yih",
+      "repo": "shradder-dot-root/TrendBloggerAgent",
+      "branch": "main",
+      "author_name": "TrendBot",
+      "author_email": "trendbot@yourdomain.com",
+      "auto_publish": true,
+      "publish_mode": "direct_commit"
+    },
+    "llm": {
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "api_key": "gsk_****IJ9d",
+      "azure_endpoint": "",
+      "azure_deployment": "",
+      "azure_api_version": "2024-02-01",
+      "max_tokens_per_request": 4096,
+      "requests_per_minute": 30
+    },
+    "search": {
+      "provider": "serpapi",
+      "api_key": "408d****5895",
+      "bing_endpoint": "https://api.bing.microsoft.com/v7.0/search",
+      "requests_per_minute": 100,
+      "cache_ttl_hours": 24
+    },
+    "news": {
+      "provider": "newsapi",
+      "api_key": "c3cb****87f7",
+      "requests_per_day": 100
+    },
+    "image": {
+      "provider": "unsplash",
+      "unsplash_access_key": "your****here",
+      "pexels_api_key": "your****here",
+      "dalle_api_key": "",
+      "stability_api_key": "",
+      "default_size": "1024x512",
+      "prefer_royalty_free": true
+    },
+    "trends": {
+      "enabled": true,
+      "geo": "US",
+      "timeframe": "now 1-d"
+    },
+    "reddit": {
+      "enabled": false,
+      "client_id": "",
+      "client_secret": "",
+      "user_agent": "TrendBloggerAgent/1.0",
+      "subreddits": [
+        "technology",
+        "news",
+        "worldnews"
+      ]
+    },
+    "content": {
+      "default_length_min": 700,
+      "default_length_max": 1200,
+      "news_length_min": 450,
+      "news_length_max": 700,
+      "howto_length_min": 900,
+      "howto_length_max": 1500,
+      "topics_per_run": 10,
+      "max_candidates": 30,
+      "posts_folder": "content/posts",
+      "images_folder": "assets/images",
+      "logs_folder": "logs"
+    },
+    "schedule": {
+      "enabled": true,
+      "cron": "30 3 * * *",
+      "timezone": "UTC"
+    },
+    "logging": {
+      "level": "INFO",
+      "format": "json",
+      "mask_secrets": true,
+      "log_to_file": true,
+      "log_to_console": true
+    },
+    "safety": {
+      "min_viable_topics": 5,
+      "max_retries": 2,
+      "retry_backoff_base": 2,
+      "require_citation": true,
+      "plagiarism_check": false,
+      "auto_publish_after_days": 30
+    },
+    "rate_limits": {
+      "search_rpm": 60,
+      "news_rpd": 100,
+      "llm_rpm": 20,
+      "github_rpm": 30,
+      "image_rpm": 30
+    }
+  }
+}
