@@ -1,0 +1,668 @@
+{
+  "run_id": "49f2ed74",
+  "start_time": "2025-12-09 18:09:01.470489",
+  "end_time": "2025-12-09 18:10:58.496957",
+  "status": "completed",
+  "topics_processed": 3,
+  "topics_published": 3,
+  "topics_failed": 0,
+  "agent_decisions": [
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Here\u2019s everything new in Samsung\u2019s One UI 8.5 update [Gallery] - 9to5Google",
+      "output_summary": "Generated 3 keywords, slug: samsung-one-ui-8-5-update-features",
+      "timestamp": "2025-12-09 18:09:09.700790",
+      "duration_ms": 8228
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: One UI 8.5 Update: What's New?, Intent: informational",
+      "output_summary": "Created outline with 6 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:09:17.153042",
+      "duration_ms": 7451
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: One UI 8.5 Update: What's New?",
+      "output_summary": "Found 5 relevant sources",
+      "timestamp": "2025-12-09 18:09:34.925653",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: One UI 8.5 Update: What's New?, Sections: 6",
+      "output_summary": "Generated 5641 chars with 5 citations",
+      "timestamp": "2025-12-09 18:09:37.803800",
+      "duration_ms": 20650
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 5 citations",
+      "output_summary": "Verified: 0, Failed: 5",
+      "timestamp": "2025-12-09 18:09:37.809846",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 5641 chars",
+      "output_summary": "Issues: 6, Auto-publish: False",
+      "timestamp": "2025-12-09 18:09:37.810481",
+      "duration_ms": 6
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: One UI 8.5 Update: What's New?, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/7",
+      "timestamp": "2025-12-09 18:09:51.711480",
+      "duration_ms": 4705
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: iOS 26.2 launch appears imminent for iPhone, per leaker - 9to5Mac",
+      "output_summary": "Generated 3 keywords, slug: ios-16-2-launch-imminent-iphone",
+      "timestamp": "2025-12-09 18:09:52.442394",
+      "duration_ms": 730
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: iOS 16.2 Launch Nears: What to Expect, Intent: informational",
+      "output_summary": "Created outline with 6 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:09:54.501633",
+      "duration_ms": 2058
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: iOS 16.2 Launch Nears: What to Expect",
+      "output_summary": "Found 10 relevant sources",
+      "timestamp": "2025-12-09 18:10:07.257582",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: iOS 16.2 Launch Nears: What to Expect, Sections: 6",
+      "output_summary": "Generated 6572 chars with 10 citations",
+      "timestamp": "2025-12-09 18:10:09.644787",
+      "duration_ms": 15142
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 10 citations",
+      "output_summary": "Verified: 0, Failed: 5",
+      "timestamp": "2025-12-09 18:10:09.650619",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 6572 chars",
+      "output_summary": "Issues: 6, Auto-publish: False",
+      "timestamp": "2025-12-09 18:10:09.651686",
+      "duration_ms": 6
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: iOS 16.2 Launch Nears: What to Expect, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/8",
+      "timestamp": "2025-12-09 18:10:23.827321",
+      "duration_ms": 5187
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Yep, Xbox Is Bleeding Out - Gizmodo",
+      "output_summary": "Generated 3 keywords, slug: xbox-decline-analysis",
+      "timestamp": "2025-12-09 18:10:24.433724",
+      "duration_ms": 605
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: The Xbox Decline: What's Going Wrong?, Intent: informational",
+      "output_summary": "Created outline with 5 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:10:26.028451",
+      "duration_ms": 1594
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: The Xbox Decline: What's Going Wrong?",
+      "output_summary": "Found 10 relevant sources",
+      "timestamp": "2025-12-09 18:10:42.334602",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: The Xbox Decline: What's Going Wrong?, Sections: 5",
+      "output_summary": "Generated 6836 chars with 10 citations",
+      "timestamp": "2025-12-09 18:10:44.470781",
+      "duration_ms": 18441
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 10 citations",
+      "output_summary": "Verified: 1, Failed: 7",
+      "timestamp": "2025-12-09 18:10:44.479319",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 6836 chars",
+      "output_summary": "Issues: 12, Auto-publish: False",
+      "timestamp": "2025-12-09 18:10:44.480306",
+      "duration_ms": 9
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: The Xbox Decline: What's Going Wrong?, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/9",
+      "timestamp": "2025-12-09 18:10:58.496558",
+      "duration_ms": 4551
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Here\u2019s everything new in Samsung\u2019s One UI 8.5 update [Gallery] - 9to5Google",
+      "slug": "samsung-one-ui-8-5-update-features",
+      "title": "One UI 8.5 Update: What's New?",
+      "status": "pr_created",
+      "commit_sha": "f848b582094ea4ef35a7feb0dea7ac1202db1e61",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/7",
+      "post_path": "content/posts/2025-12-09-samsung-one-ui-8-5-update-features.md",
+      "image_path": "assets/images/2025-12-09/samsung-one-ui-8-5-update-features.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://9to5google.com/2025/12/08/samsung-galaxy-one-ui-8-5-update-everything-new/",
+          "snippet": "The updated panel is now fully customizable, with the ability to adjust the layout of every toggle a",
+          "title": "Here's everything new in Samsung's One UI 8.5 update ...",
+          "accessed_date": "2025-12-09 18:09:01.472342"
+        },
+        {
+          "number": 2,
+          "url": "https://9to5google.com/2025/12/08/samsung-one-ui-8-5-update-beta-new-features/",
+          "snippet": "The first is a new upgrade to \u201cPhoto Assist,\u201d which now allows users to edit photos with AI tools \u2013 ",
+          "title": "Samsung releases One UI 8.5 beta for Galaxy S25 series",
+          "accessed_date": "2025-12-09 18:09:01.472342"
+        },
+        {
+          "number": 3,
+          "url": "https://www.facebook.com/9to5Google/posts/heres-everything-new-in-samsungs-one-ui-85-update-gallerysamsungs-latest-major-g/1273051411534180/",
+          "snippet": "While the full rollout won't take place until sometime in 2026, we can take a look through everythin",
+          "title": "Samsung's latest major Galaxy update, One UI 8.5, h",
+          "accessed_date": "2025-12-09 18:09:01.472342"
+        },
+        {
+          "number": 4,
+          "url": "https://www.reddit.com/r/Android/comments/1nx135w/one_ui_85_will_be_based_on_android_16_qpr2/",
+          "snippet": "One UI 8.5 will be based on Android 16 QPR2, bringing several major new Android features to Galaxy d",
+          "title": "One UI 8.5 will be based on Android 16 QPR2, bringing ...",
+          "accessed_date": "2025-12-09 18:09:01.472342"
+        },
+        {
+          "number": 5,
+          "url": "https://news.samsung.com/us/samsung-launches-one-ui-8-5-beta-next-level-ease-use/",
+          "snippet": "Latest version of One UI brings enhanced productivity, privacy, and performance across the Galaxy ec",
+          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of ...",
+          "accessed_date": "2025-12-09 18:09:01.472342"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: 5, users can expect a more seamless and enjoyable ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: Additionally, new camera features have been added,...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: A list of eligible devices and a detailed rollout ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: As the company continues to provide regular softwa...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: Regular security patches and updates will also be ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/9to5Google/posts/heres-eve...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:09:01.472342"
+    },
+    {
+      "topic": "iOS 26.2 launch appears imminent for iPhone, per leaker - 9to5Mac",
+      "slug": "ios-16-2-launch-imminent-iphone",
+      "title": "iOS 16.2 Launch Nears: What to Expect",
+      "status": "pr_created",
+      "commit_sha": "7b63f5178ca1d14d046d12ce544517e1724d74b1",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/8",
+      "post_path": "content/posts/2025-12-09-ios-16-2-launch-imminent-iphone.md",
+      "image_path": "assets/images/2025-12-09/ios-16-2-launch-imminent-iphone.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://9to5mac.com/2025/12/08/ios-26-2-launch-appears-imminent-for-iphone-per-leaker/",
+          "snippet": "iOS 26.2's launch on iPhone appears imminent, perhaps arriving today, as a reputable leaker has just",
+          "title": "iOS 26.2 launch appears imminent for iPhone, per leaker",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 2,
+          "url": "https://www.facebook.com/9to5mac/posts/ios-262-launch-appears-imminent-for-iphone-per-leakerios-262s-launch-on-iphone-a/1423395342487159/",
+          "snippet": "And IF they ever make the operating system stable without using all of your battery, it might be wor",
+          "title": "iOS 26.2 launch appears imminent for iPhone, per leaker",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 3,
+          "url": "https://x.com/9to5mac/status/1998063438031987146",
+          "snippet": "9to5Mac (@9to5mac). 258 likes 10 replies. iOS 26.2 launch appears imminent for iPhone, per leaker ht",
+          "title": "iOS 26.2 launch appears imminent for iPhone, per leaker",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 4,
+          "url": "https://www.linkedin.com/posts/9to5mac.com_ios-262-launch-appears-imminent-for-iphone-activity-7403843446106738688-F2Ym",
+          "snippet": "iOS 26.2 launch appears imminent for iPhone, per leaker. iOS 26.2 launch appears imminent for iPhone",
+          "title": "iOS 26.2 launch appears imminent for iPhone, per leaker",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 5,
+          "url": "https://www.reddit.com/r/mobiles/comments/1phgjvj/ios_262_launch_appears_imminent_for_iphone_per/",
+          "snippet": "iOS 26.2 launch appears imminent for iPhone, per leaker. r/mobiles - iOS 26.2 launch appears imminen",
+          "title": "iOS 26.2 launch appears imminent for iPhone, per leaker",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 6,
+          "url": "https://www.cnet.com/tech/services-and-software/ios-16-2-is-coming-soon-have-you-tried-these-ios-16-1-features-yet/",
+          "snippet": "Apple's third developer beta for iOS 16.2 is available to download now, so people can expect iOS 16.",
+          "title": "iOS 16.2 Is Coming Soon. Have You Tried These iOS 16.1 ...",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 7,
+          "url": "https://www.youtube.com/watch?v=y58SVEkr0I4",
+          "snippet": "iOS 16.2.1 should be released any time now as iOS 16.2 is facing a lot of problems. The release of i",
+          "title": "iOS 16.2.1 Release Imminent & iOS 16.2 Falling Apart !",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 8,
+          "url": "https://www.tomsguide.com/news/ios-162-new-iphone-features",
+          "snippet": "Leading the changes in iOS 16.2 are a new Freeform app for cross-device brainstorming and a karaoke ",
+          "title": "iOS 16.2 live now \u2014 here's all the new features for your ...",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 9,
+          "url": "https://www.macrumors.com/guide/ios-16-2-features/",
+          "snippet": "Freeform App \u00b7 Apple Music Sing \u00b7 Advanced Data Protection \u00b7 Stage Manager External Display Support ",
+          "title": "iOS 16.2 Features: Everything New in iOS 16.2",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        },
+        {
+          "number": 10,
+          "url": "https://en.wikipedia.org/wiki/IOS_16",
+          "snippet": "iOS 16 ; Apple \u00b7 September 12, 2022; 3 years ago (2022-09-12) \u00b7 16.7.12 (September 15, 2025; 2 month",
+          "title": "iOS 16",
+          "accessed_date": "2025-12-09 18:09:51.712018"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: 2 is set to launch soon for iPhone users ....",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: Enhanced security features, including improved Fac...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [7]",
+          "description": "Could not verify claim against source: Ensuring that the iPhone is backed up before insta...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [8]",
+          "description": "Could not verify claim against source: 2 update may also include new Apple News features,...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [10]",
+          "description": "Could not verify claim against source: 2 arrive throughout the year ....",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "According to 9to5Mac, a reliab...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:09:51.712018"
+    },
+    {
+      "topic": "Yep, Xbox Is Bleeding Out - Gizmodo",
+      "slug": "xbox-decline-analysis",
+      "title": "The Xbox Decline: What's Going Wrong?",
+      "status": "pr_created",
+      "commit_sha": "73a7fce0a32eb94ac4f11d7061cd9e50ab1b31b7",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/9",
+      "post_path": "content/posts/2025-12-09-xbox-decline-analysis.md",
+      "image_path": "assets/images/2025-12-09/xbox-decline-analysis.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://gizmodo.com/xbox-is-bleeding-out-black-friday-2025-sales-2000696718",
+          "snippet": "Like the worst sort of father, Xbox doesn't show much care for its youngest consoles anymore, at lea",
+          "title": "Yep, Xbox Is Bleeding Out",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 2,
+          "url": "https://www.reddit.com/r/Games/comments/1phkbd9/yep_xbox_is_bleeding_out/",
+          "snippet": "Every year it becomes harder to see why someone would choose an Xbox over anything else. Gamepass WA",
+          "title": "Yep, Xbox Is Bleeding Out : r/Games",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 3,
+          "url": "https://www.facebook.com/gizmodo/posts/yep-xbox-is-bleeding-out/1286230960036702/",
+          "snippet": "Its dead. They'll just be skinning PCs with the xbox logo from now on. Such a shame but Microsoft CE",
+          "title": "Yep, Xbox Is Bleeding Out",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 4,
+          "url": "https://www.threads.com/@grantjallen/post/DSAk8klju0s/this-is-a-bit-of-a-leap-from-the-article-is-it-bleeding-out-or-did-xbox-just",
+          "snippet": "This is a bit of a leap from the article. Is it bleeding out, or did Xbox just not discount and prom",
+          "title": "This is a bit of a leap from the article. Is it bleeding out, or ...",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 5,
+          "url": "https://www.reddit.com/r/xbox/comments/1ojfbxx/xbox_hardware_declines_again_content_and_services/",
+          "snippet": "Xbox hardware declines again, Content and Services up slightly for Q1 FY26 : r/xbox.",
+          "title": "Xbox hardware declines again, Content and Services up ...",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 6,
+          "url": "https://www.hollywoodreporter.com/business/business-news/xbox-console-sales-drop-29-percent-summer-2025-price-hike-1236413316/",
+          "snippet": "Xbox console sales figures dropped 22 percent in the prior quarter, fiscal Q4 of 2025. We're finding",
+          "title": "Xbox Console Sales Sink 29% in Quarter Between 2 Price ...",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 7,
+          "url": "https://www.reddit.com/r/xbox/comments/1odinon/exclusive_games_are_antiquated_xbox_president/",
+          "snippet": "Raising price of Game Pass Ultimate by 50%, massive layoffs and destruction of whole studios, cancel",
+          "title": "Exclusive Games Are \"Antiquated,\" Xbox President Says. ...",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 8,
+          "url": "https://www.youtube.com/watch?v=l-Qt-DNRRbE",
+          "snippet": "Microsoft CFO demanding Xbox have a 30% profit margin across the board explains SO much about why th",
+          "title": "Xbox boss calls exclusives 'antiquated', threatens 'premium ...",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 9,
+          "url": "https://www.ign.com/articles/microsoft-has-reportedly-pushed-xbox-studios-to-deliver-a-30-profit-margin-allegedly-leading-to-all-those-layoffs-canceled-projects-price-rises-and-the-end-of-exclusives",
+          "snippet": "Over the past six years, Xbox has hit 10-20%. To put that 30% target into more context, Sony's PlayS",
+          "title": "Microsoft Has Reportedly Pushed Xbox Studios to Deliver ...",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        },
+        {
+          "number": 10,
+          "url": "https://www.reddit.com/r/gamingnews/comments/1fmbhsd/microsoft_spends_1_billion_annually_to_get/",
+          "snippet": "They spend one billion of the five billion Gamepass makes anually on 3rd party games. Correct. This ",
+          "title": "Microsoft Spends $1 Billion Annually To Get Third-Party ...",
+          "accessed_date": "2025-12-09 18:10:23.827933"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: The current state of Xbox is a far cry from its fo...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: These changes have impacted Xbox, as gamers' prefe...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: Microsoft's gaming business could also be impacted...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: However, Xbox faces significant obstacles, includi...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: ## Microsoft Xbox Struggles\n\nMicrosoft's Xbox divi...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [9]",
+          "description": "Could not verify claim against source: The company's goal of achieving a 30% profit margi...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [10]",
+          "description": "Could not verify claim against source: Investing in exclusive games and content, improvin...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "[Xbox Console Sales Sink 29% i...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/r/xbox/comments/1odinon/ex...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "v=l-Qt-DNRRbE)\n   > Microsoft ...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/articles/microsoft-has-rep...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "To put that 30% target into mo...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:10:23.827933"
+    }
+  ],
+  "errors": [],
+  "config_snapshot": {
+    "github": {
+      "token": "ghp_****1Yih",
+      "repo": "shradder-dot-root/TrendBloggerAgent",
+      "branch": "main",
+      "author_name": "TrendBot",
+      "author_email": "trendbot@yourdomain.com",
+      "auto_publish": false,
+      "publish_mode": "branch_pr"
+    },
+    "llm": {
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "api_key": "gsk_****IJ9d",
+      "azure_endpoint": "",
+      "azure_deployment": "",
+      "azure_api_version": "2024-02-01",
+      "max_tokens_per_request": 4096,
+      "requests_per_minute": 30
+    },
+    "search": {
+      "provider": "serpapi",
+      "api_key": "408d****5895",
+      "bing_endpoint": "https://api.bing.microsoft.com/v7.0/search",
+      "requests_per_minute": 100,
+      "cache_ttl_hours": 24
+    },
+    "news": {
+      "provider": "newsapi",
+      "api_key": "c3cb****87f7",
+      "requests_per_day": 100
+    },
+    "image": {
+      "provider": "unsplash",
+      "unsplash_access_key": "your****here",
+      "pexels_api_key": "your****here",
+      "dalle_api_key": "",
+      "stability_api_key": "",
+      "default_size": "1024x512",
+      "prefer_royalty_free": true
+    },
+    "trends": {
+      "enabled": true,
+      "geo": "US",
+      "timeframe": "now 1-d"
+    },
+    "reddit": {
+      "enabled": false,
+      "client_id": "",
+      "client_secret": "",
+      "user_agent": "TrendBloggerAgent/1.0",
+      "subreddits": [
+        "technology",
+        "news",
+        "worldnews"
+      ]
+    },
+    "content": {
+      "default_length_min": 700,
+      "default_length_max": 1200,
+      "news_length_min": 450,
+      "news_length_max": 700,
+      "howto_length_min": 900,
+      "howto_length_max": 1500,
+      "topics_per_run": 10,
+      "max_candidates": 30,
+      "posts_folder": "content/posts",
+      "images_folder": "assets/images",
+      "logs_folder": "logs"
+    },
+    "schedule": {
+      "enabled": true,
+      "cron": "30 3 * * *",
+      "timezone": "UTC"
+    },
+    "logging": {
+      "level": "INFO",
+      "format": "json",
+      "mask_secrets": true,
+      "log_to_file": true,
+      "log_to_console": true
+    },
+    "safety": {
+      "min_viable_topics": 5,
+      "max_retries": 2,
+      "retry_backoff_base": 2,
+      "require_citation": true,
+      "plagiarism_check": false,
+      "auto_publish_after_days": 30
+    },
+    "rate_limits": {
+      "search_rpm": 60,
+      "news_rpd": 100,
+      "llm_rpm": 20,
+      "github_rpm": 30,
+      "image_rpm": 30
+    }
+  }
+}
