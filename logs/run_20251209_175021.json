@@ -1,0 +1,256 @@
+{
+  "run_id": "85c9683e",
+  "start_time": "2025-12-09 17:50:21.213146",
+  "end_time": "2025-12-09 17:51:04.343974",
+  "status": "completed",
+  "topics_processed": 1,
+  "topics_published": 0,
+  "topics_failed": 0,
+  "agent_decisions": [
+    {
+      "agent": "TrendFetcher",
+      "action": "fetch_trends",
+      "input_summary": "Sources: google_trends, newsapi, search",
+      "output_summary": "Found 30 trending candidates",
+      "timestamp": "2025-12-09 17:50:24.875846",
+      "duration_ms": 3661
+    },
+    {
+      "agent": "TopicFilter",
+      "action": "prefilter",
+      "input_summary": "Input: 30 candidates",
+      "output_summary": "After prefilter: 25 candidates",
+      "timestamp": "2025-12-09 17:50:24.877820",
+      "duration_ms": null
+    },
+    {
+      "agent": "TopicFilter",
+      "action": "filter_topics",
+      "input_summary": "Processed 30 candidates",
+      "output_summary": "Selected 10 publishable topics",
+      "timestamp": "2025-12-09 17:50:29.654716",
+      "duration_ms": 4778
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Samsung One UI 8.5 Update: New Features and Changes",
+      "output_summary": "Generated 3 keywords, slug: samsung-one-ui-8-5-update-features",
+      "timestamp": "2025-12-09 17:50:30.667034",
+      "duration_ms": 1011
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: One UI 8.5 Update: What's New?, Intent: news",
+      "output_summary": "Created outline with 5 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 17:50:32.414601",
+      "duration_ms": 1747
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: One UI 8.5 Update: What's New?",
+      "output_summary": "Found 4 relevant sources",
+      "timestamp": "2025-12-09 17:50:48.785717",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: One UI 8.5 Update: What's New?, Sections: 5",
+      "output_summary": "Generated 5561 chars with 4 citations",
+      "timestamp": "2025-12-09 17:50:51.256548",
+      "duration_ms": 18841
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 4 citations",
+      "output_summary": "Verified: 0, Failed: 3",
+      "timestamp": "2025-12-09 17:50:51.261616",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 5561 chars",
+      "output_summary": "Issues: 3, Auto-publish: False",
+      "timestamp": "2025-12-09 17:50:51.262262",
+      "duration_ms": 5
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: One UI 8.5 Update: What's New?, Files: 1",
+      "output_summary": "Status: pr_created, PR: https://github.com/shradder-dot-root/TrendBloggerAgent/pull/1",
+      "timestamp": "2025-12-09 17:51:04.343536",
+      "duration_ms": 5199
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Samsung One UI 8.5 Update: New Features and Changes",
+      "slug": "samsung-one-ui-8-5-update-features",
+      "title": "One UI 8.5 Update: What's New?",
+      "status": "pr_created",
+      "commit_sha": "9773e58cc431d84829bf09ab2f5c3258f92625b6",
+      "pr_url": "https://github.com/shradder-dot-root/TrendBloggerAgent/pull/1",
+      "post_path": "content/posts/2025-12-09-samsung-one-ui-8-5-update-features.md",
+      "image_path": "assets/images/2025-12-09/samsung-one-ui-8-5-update-features.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://9to5google.com/2025/12/08/samsung-galaxy-one-ui-8-5-update-everything-new/",
+          "snippet": "The \u201cMy Files\u201d app is picking up a new feature called \u201cStorage Share.\u201d This allows your phone to acc",
+          "title": "Here's everything new in Samsung's One UI 8.5 update ...",
+          "accessed_date": "2025-12-09 17:50:29.655613"
+        },
+        {
+          "number": 2,
+          "url": "https://www.forbes.com/sites/zakdoffman/2025/12/05/samsung-one-ui-85-release-this-changes-android/",
+          "snippet": "Now, per Samsung leaker Tarun Vats on X, the latest One UI 8.5 test build shows a new Device Care fe",
+          "title": "Samsung One UI 8.5 Release\u2014This Changes Android",
+          "accessed_date": "2025-12-09 17:50:29.655613"
+        },
+        {
+          "number": 3,
+          "url": "https://news.samsung.com/global/samsung-launches-one-ui-8-5-beta-for-next-level-ease-of-use",
+          "snippet": "One UI 8.5 makes creating and sharing content more intuitive from start to finish. Users can keep ge",
+          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of ...",
+          "accessed_date": "2025-12-09 17:50:29.655613"
+        },
+        {
+          "number": 4,
+          "url": "https://news.samsung.com/us/samsung-launches-one-ui-8-5-beta-next-level-ease-use/",
+          "snippet": "Latest version of One UI brings enhanced productivity, privacy, and performance across the Galaxy ec",
+          "title": "Samsung Launches One UI 8.5 Beta for Next-Level Ease of ...",
+          "accessed_date": "2025-12-09 17:50:29.655613"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: Additionally, users can now customize their lock s...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: Regular security updates and patches will also be ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: According to Samsung, the update will bring \"next-...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        }
+      ],
+      "publish_time": "2025-12-09 17:50:29.655613"
+    }
+  ],
+  "errors": [],
+  "config_snapshot": {
+    "github": {
+      "token": "ghp_****1Yih",
+      "repo": "shradder-dot-root/TrendBloggerAgent",
+      "branch": "main",
+      "author_name": "TrendBot",
+      "author_email": "trendbot@yourdomain.com",
+      "auto_publish": false,
+      "publish_mode": "branch_pr"
+    },
+    "llm": {
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "api_key": "gsk_****IJ9d",
+      "azure_endpoint": "",
+      "azure_deployment": "",
+      "azure_api_version": "2024-02-01",
+      "max_tokens_per_request": 4096,
+      "requests_per_minute": 30
+    },
+    "search": {
+      "provider": "serpapi",
+      "api_key": "408d****5895",
+      "bing_endpoint": "https://api.bing.microsoft.com/v7.0/search",
+      "requests_per_minute": 100,
+      "cache_ttl_hours": 24
+    },
+    "news": {
+      "provider": "newsapi",
+      "api_key": "c3cb****87f7",
+      "requests_per_day": 100
+    },
+    "image": {
+      "provider": "unsplash",
+      "unsplash_access_key": "your****here",
+      "pexels_api_key": "your****here",
+      "dalle_api_key": "",
+      "stability_api_key": "",
+      "default_size": "1024x512",
+      "prefer_royalty_free": true
+    },
+    "trends": {
+      "enabled": true,
+      "geo": "US",
+      "timeframe": "now 1-d"
+    },
+    "reddit": {
+      "enabled": false,
+      "client_id": "",
+      "client_secret": "",
+      "user_agent": "TrendBloggerAgent/1.0",
+      "subreddits": [
+        "technology",
+        "news",
+        "worldnews"
+      ]
+    },
+    "content": {
+      "default_length_min": 700,
+      "default_length_max": 1200,
+      "news_length_min": 450,
+      "news_length_max": 700,
+      "howto_length_min": 900,
+      "howto_length_max": 1500,
+      "topics_per_run": 10,
+      "max_candidates": 30,
+      "posts_folder": "content/posts",
+      "images_folder": "assets/images",
+      "logs_folder": "logs"
+    },
+    "schedule": {
+      "enabled": true,
+      "cron": "30 3 * * *",
+      "timezone": "UTC"
+    },
+    "logging": {
+      "level": "INFO",
+      "format": "json",
+      "mask_secrets": true,
+      "log_to_file": true,
+      "log_to_console": true
+    },
+    "safety": {
+      "min_viable_topics": 5,
+      "max_retries": 2,
+      "retry_backoff_base": 2,
+      "require_citation": true,
+      "plagiarism_check": false,
+      "auto_publish_after_days": 30
+    },
+    "rate_limits": {
+      "search_rpm": 60,
+      "news_rpd": 100,
+      "llm_rpm": 20,
+      "github_rpm": 30,
+      "image_rpm": 30
+    }
+  }
+}
