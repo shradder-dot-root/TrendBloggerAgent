@@ -1,0 +1,922 @@
+{
+  "run_id": "cd4bf95a",
+  "start_time": "2025-12-09 18:18:30.737055",
+  "end_time": "2025-12-09 18:21:12.639745",
+  "status": "completed",
+  "topics_processed": 5,
+  "topics_published": 0,
+  "topics_failed": 0,
+  "agent_decisions": [
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Comcast president outlines unsuccessful WBD offer and future of NBC's Peacock - CNBC",
+      "output_summary": "Generated 3 keywords, slug: comcast-president-wbd-offer-peacock-future",
+      "timestamp": "2025-12-09 18:18:32.560709",
+      "duration_ms": 1822
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Comcast President Reveals Unsuccessful WBD Bid, Intent: informational",
+      "output_summary": "Created outline with 6 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:18:34.617762",
+      "duration_ms": 2056
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Comcast President Reveals Unsuccessful WBD Bid",
+      "output_summary": "Found 10 relevant sources",
+      "timestamp": "2025-12-09 18:18:46.822326",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Comcast President Reveals Unsuccessful WBD Bid, Sections: 6",
+      "output_summary": "Generated 7201 chars with 10 citations",
+      "timestamp": "2025-12-09 18:18:49.343921",
+      "duration_ms": 14725
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 10 citations",
+      "output_summary": "Verified: 2, Failed: 4",
+      "timestamp": "2025-12-09 18:18:49.352528",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 7201 chars",
+      "output_summary": "Issues: 4, Auto-publish: False",
+      "timestamp": "2025-12-09 18:18:49.353500",
+      "duration_ms": 9
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Comcast President Reveals Unsuccessful WBD Bid, Files: 1",
+      "output_summary": "Status: published, PR: N/A",
+      "timestamp": "2025-12-09 18:19:02.813178",
+      "duration_ms": 4051
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Bonus PS Plus Extra Game for December 2025 Available Now - Push Square",
+      "output_summary": "Generated 3 keywords, slug: bonus-ps-plus-extra-game-december-2025-available",
+      "timestamp": "2025-12-09 18:19:03.574572",
+      "duration_ms": 760
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: PS Plus Extra December 2025 Game Revealed, Intent: informational",
+      "output_summary": "Created outline with 6 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:19:05.662460",
+      "duration_ms": 2087
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: PS Plus Extra December 2025 Game Revealed",
+      "output_summary": "Found 7 relevant sources",
+      "timestamp": "2025-12-09 18:19:21.132965",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: PS Plus Extra December 2025 Game Revealed, Sections: 6",
+      "output_summary": "Generated 6076 chars with 7 citations",
+      "timestamp": "2025-12-09 18:19:23.685980",
+      "duration_ms": 18023
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 7 citations",
+      "output_summary": "Verified: 1, Failed: 4",
+      "timestamp": "2025-12-09 18:19:23.690590",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 6076 chars",
+      "output_summary": "Issues: 4, Auto-publish: False",
+      "timestamp": "2025-12-09 18:19:23.691295",
+      "duration_ms": 5
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: PS Plus Extra December 2025 Game Revealed, Files: 1",
+      "output_summary": "Status: published, PR: N/A",
+      "timestamp": "2025-12-09 18:19:35.856318",
+      "duration_ms": 2897
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Analogue is restocking its 4K N64 and making it more colorful - The Verge",
+      "output_summary": "Generated 3 keywords, slug: analogue-n64-4k-restock",
+      "timestamp": "2025-12-09 18:19:36.638890",
+      "duration_ms": 781
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Analogue N64 4K Restock, Intent: informational",
+      "output_summary": "Created outline with 6 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:19:39.442317",
+      "duration_ms": 2803
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Analogue N64 4K Restock",
+      "output_summary": "Found 8 relevant sources",
+      "timestamp": "2025-12-09 18:19:55.600025",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Analogue N64 4K Restock, Sections: 6",
+      "output_summary": "Generated 6635 chars with 8 citations",
+      "timestamp": "2025-12-09 18:19:58.442338",
+      "duration_ms": 18999
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 8 citations",
+      "output_summary": "Verified: 0, Failed: 5",
+      "timestamp": "2025-12-09 18:19:58.450856",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 6635 chars",
+      "output_summary": "Issues: 8, Auto-publish: False",
+      "timestamp": "2025-12-09 18:19:58.451605",
+      "duration_ms": 9
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Analogue N64 4K Restock, Files: 1",
+      "output_summary": "Status: published, PR: N/A",
+      "timestamp": "2025-12-09 18:20:09.287642",
+      "duration_ms": 2547
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: The Winter Ball Update Patch Notes - Disney Dreamlight Valley",
+      "output_summary": "Generated 3 keywords, slug: disney-dreamlight-valley-winter-ball-update-patch-notes",
+      "timestamp": "2025-12-09 18:20:09.948697",
+      "duration_ms": 660
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Disney Dreamlight Valley Winter Ball Update Patch Notes, Intent: informational",
+      "output_summary": "Created outline with 6 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:20:11.815657",
+      "duration_ms": 1866
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Disney Dreamlight Valley Winter Ball Update Patch Notes",
+      "output_summary": "Found 5 relevant sources",
+      "timestamp": "2025-12-09 18:20:29.016277",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Disney Dreamlight Valley Winter Ball Update Patch Notes, Sections: 6",
+      "output_summary": "Generated 5618 chars with 5 citations",
+      "timestamp": "2025-12-09 18:20:31.463695",
+      "duration_ms": 19647
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 5 citations",
+      "output_summary": "Verified: 3, Failed: 1",
+      "timestamp": "2025-12-09 18:20:31.468366",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 5618 chars",
+      "output_summary": "Issues: 2, Auto-publish: True",
+      "timestamp": "2025-12-09 18:20:31.468838",
+      "duration_ms": 4
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Disney Dreamlight Valley Winter Ball Update Patch Notes, Files: 1",
+      "output_summary": "Status: published, PR: N/A",
+      "timestamp": "2025-12-09 18:20:42.748381",
+      "duration_ms": 2990
+    },
+    {
+      "agent": "KeywordExpander",
+      "action": "expand_keywords",
+      "input_summary": "Topic: Exclusive / Commerce to open up exports of Nvidia H200 chips to China - https-//www.semafor.com",
+      "output_summary": "Generated 3 keywords, slug: nvidia-h200-chip-exports-to-china",
+      "timestamp": "2025-12-09 18:20:43.439702",
+      "duration_ms": 690
+    },
+    {
+      "agent": "OutlineAgent",
+      "action": "create_outline",
+      "input_summary": "Title: Nvidia H200 Chip Exports to China Set to Resume, Intent: informational",
+      "output_summary": "Created outline with 5 sections, 3 facts to verify",
+      "timestamp": "2025-12-09 18:20:45.159775",
+      "duration_ms": 1719
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "gather_sources",
+      "input_summary": "Researching for: Nvidia H200 Chip Exports to China Set to Resume",
+      "output_summary": "Found 10 relevant sources",
+      "timestamp": "2025-12-09 18:20:59.874271",
+      "duration_ms": null
+    },
+    {
+      "agent": "DraftWriter",
+      "action": "write_draft",
+      "input_summary": "Title: Nvidia H200 Chip Exports to China Set to Resume, Sections: 5",
+      "output_summary": "Generated 7039 chars with 10 citations",
+      "timestamp": "2025-12-09 18:21:02.044567",
+      "duration_ms": 16884
+    },
+    {
+      "agent": "Editor",
+      "action": "verify_citations",
+      "input_summary": "Checking 10 citations",
+      "output_summary": "Verified: 3, Failed: 6",
+      "timestamp": "2025-12-09 18:21:02.056436",
+      "duration_ms": null
+    },
+    {
+      "agent": "Editor",
+      "action": "edit_draft",
+      "input_summary": "Draft length: 7039 chars",
+      "output_summary": "Issues: 7, Auto-publish: False",
+      "timestamp": "2025-12-09 18:21:02.056988",
+      "duration_ms": 12
+    },
+    {
+      "agent": "Publisher",
+      "action": "publish",
+      "input_summary": "Title: Nvidia H200 Chip Exports to China Set to Resume, Files: 1",
+      "output_summary": "Status: published, PR: N/A",
+      "timestamp": "2025-12-09 18:21:12.639340",
+      "duration_ms": 3019
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Comcast president outlines unsuccessful WBD offer and future of NBC's Peacock - CNBC",
+      "slug": "comcast-president-wbd-offer-peacock-future",
+      "title": "Comcast President Reveals Unsuccessful WBD Bid",
+      "status": "published",
+      "commit_sha": "507b03cd39a68c0a5e9f6dc37594715cf59d9936",
+      "pr_url": null,
+      "post_path": "content/posts/2025-12-09-comcast-president-wbd-offer-peacock-future.md",
+      "image_path": "assets/images/2025-12-09/comcast-president-wbd-offer-peacock-future.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://www.cnbc.com/2025/12/08/comcast-president-unsuccessful-wbd-offer-future-of-peacock.html",
+          "snippet": "Comcast's top brass on Monday pulled the curtain back on the company's unsuccessful bid for Warner B",
+          "title": "Comcast president outlines unsuccessful WBD offer, future ...",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 2,
+          "url": "https://www.reddit.com/r/MediaMergers/comments/1phpd1u/comcast_president_outlines_unsuccessful_wbd_offer/",
+          "snippet": "Comcast president outlines unsuccessful WBD offer and future of NBC's Peacock. r/MediaMergers - Comc",
+          "title": "Comcast president outlines unsuccessful WBD offer and ...",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 3,
+          "url": "https://x.com/CNBC/status/1998080857743962380",
+          "snippet": "CNBC (@CNBC). 7 likes. Comcast president outlines unsuccessful WBD offer and future of NBC's Peacock",
+          "title": "Comcast president outlines unsuccessful WBD offer and ...",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 4,
+          "url": "https://fortune.com/2025/12/08/comcast-warner-bros-discovery-bidding-president-mike-cavanagh/",
+          "snippet": "Comcast pulls out of WBD bidding war, president says: 'We roll on with a lot of focus. But I think w",
+          "title": "Comcast pulls out of WBD bidding war, president says",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 5,
+          "url": "https://www.businessinsider.com/why-comcast-lost-warner-bros-bidding-war-netflix-paramount-skydance-2025-12",
+          "snippet": "Cavanagh said Comcast's bid for Warner Bros. Discovery's streaming and studio assets was \"light\" on ",
+          "title": "Why Comcast Lost Warner Bros. Bidding War to Netflix",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 6,
+          "url": "https://en.wikipedia.org/wiki/Peacock_(streaming_service)",
+          "snippet": "In September 2022, the service had 30 million monthly active accounts and 15 million ... A Comcast f",
+          "title": "Peacock (streaming service)",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 7,
+          "url": "https://www.statista.com/statistics/1246902/number-sign-ups-peacock-united-states/?srsltid=AfmBOoo46rfWh797DuKqXoFNDE-rkfaDuF785eQCMVudQWy1hhKc3OgX",
+          "snippet": "As of the fourth quarter of 2024, the number of Peacock's paid subscribers amounted to 36 million. A",
+          "title": "Peacock's user numbers in the U.S. 2024",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 8,
+          "url": "https://www.adexchanger.com/platforms/comcast-beats-earnings-estimates-and-peacock-hits-33-million-subscribers/",
+          "snippet": "Six months after its nationwide launch, Comcast NBCUniveral's premium ad supported streaming service",
+          "title": "Comcast Beats Earnings Estimates And Peacock Hits 33 ...",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 9,
+          "url": "https://finance.yahoo.com/news/comcast-president-says-company-damn-150750639.html",
+          "snippet": "Comcast proposed a deal to spin out NBCUniversal into a publicly traded company that would merge wit",
+          "title": "Comcast President Says Company Has \u201cDamn Good Hand ...",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        },
+        {
+          "number": 10,
+          "url": "https://www.cnbc.com/2025/12/04/wbd-bids-paramount-comcast-netflix-assets.html",
+          "snippet": "Preening Peacock Comcast is in the process of spinning out its portfolio of cable networks, which in",
+          "title": "WBD bids: What Paramount, Comcast, Netflix could do with ...",
+          "accessed_date": "2025-12-09 18:18:30.738310"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: Discovery (WBD) ....",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: According to Cavanagh, Comcast is now focused on m...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: The reasons for the bid's failure are still unclea...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [10]",
+          "description": "Could not verify claim against source: Netflix, Disney+, and HBO Max are all vying for ma...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        }
+      ],
+      "publish_time": "2025-12-09 18:18:30.738310"
+    },
+    {
+      "topic": "Bonus PS Plus Extra Game for December 2025 Available Now - Push Square",
+      "slug": "bonus-ps-plus-extra-game-december-2025-available",
+      "title": "PS Plus Extra December 2025 Game Revealed",
+      "status": "published",
+      "commit_sha": "d9fb9b5659c108a91608ee5f887f2356b553c3c7",
+      "pr_url": null,
+      "post_path": "content/posts/2025-12-09-bonus-ps-plus-extra-game-december-2025-available.md",
+      "image_path": "assets/images/2025-12-09/bonus-ps-plus-extra-game-december-2025-available.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://www.pushsquare.com/news/2025/12/bonus-ps-plus-extra-game-for-december-2025-available-now",
+          "snippet": "Check back in on Wednesday, 10th December for the complete selection of PS Plus Extra and PS Plus Pr",
+          "title": "Bonus PS Plus Extra Game for December 2025 Available ...",
+          "accessed_date": "2025-12-09 18:19:02.813861"
+        },
+        {
+          "number": 2,
+          "url": "https://www.threads.com/@pushsquare/post/DSAstHojnE4/bonus-ps-plus-extra-game-for-december-available-now",
+          "snippet": "pushsquare's profile picture. Push Square (@pushsquare) \u00b7 December 8, 2025 at 9:30 AM. Bonus PS Plus",
+          "title": "Bonus PS Plus Extra Game for December 2025 Available ...",
+          "accessed_date": "2025-12-09 18:19:02.813861"
+        },
+        {
+          "number": 3,
+          "url": "https://www.facebook.com/pushsquare/posts/youve-got-a-bonus-ps-plus-extra-game-to-download-and-it-only-just-came-out-today/1303097725195390/",
+          "snippet": "PUSHSQUARE.COM. Bonus PS Plus Extra Game for December 2025 Available Now. Skate Story on the service",
+          "title": "You've got a bonus PS Plus Extra game to download, and it ...",
+          "accessed_date": "2025-12-09 18:19:02.813861"
+        },
+        {
+          "number": 4,
+          "url": "https://gamefaqs.gamespot.com/news?id=210249",
+          "snippet": "Skate Story on the service now. You will get the full PS Plus Extra game lineup for December 2025 la",
+          "title": "Bonus PS Plus Extra Game for December 2025 Available Now",
+          "accessed_date": "2025-12-09 18:19:02.813861"
+        },
+        {
+          "number": 5,
+          "url": "https://blog.playstation.com/2025/11/26/playstation-plus-monthly-games-for-december-lego-horizon-adventures-killing-floor-3-the-outlast-trials-more/",
+          "snippet": "PlayStation Plus Monthly Games for December: LEGO Horizon Adventures, Killing Floor 3, The Outlast T",
+          "title": "PlayStation Plus Monthly Games for December: LEGO ...",
+          "accessed_date": "2025-12-09 18:19:02.813861"
+        },
+        {
+          "number": 6,
+          "url": "https://www.playstation.com/en-us/ps-plus/",
+          "snippet": "Join PlayStation Plus on an Essential, Extra or Premium membership plan and get hundreds of PS4 and ",
+          "title": "PlayStation\u00aePlus | Hundreds of games to download and ...",
+          "accessed_date": "2025-12-09 18:19:02.813861"
+        },
+        {
+          "number": 7,
+          "url": "https://www.allout-gaming.com/news/ps-plus-extra-december-2025-1550906",
+          "snippet": "Various Like a Dragon games are tipped to appear, alongside Red Dead Redemption 2, System Shock, Nin",
+          "title": "PS Plus Extra December 2025 games - Sony to finally add ...",
+          "accessed_date": "2025-12-09 18:19:02.813861"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: According to their sources, subscribers can look f...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: Push Square has hinted that the game will be a bon...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: One source suggests that the game might be \"Skate ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: The service offers a range of benefits, including ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        }
+      ],
+      "publish_time": "2025-12-09 18:19:02.813861"
+    },
+    {
+      "topic": "Analogue is restocking its 4K N64 and making it more colorful - The Verge",
+      "slug": "analogue-n64-4k-restock",
+      "title": "Analogue N64 4K Restock",
+      "status": "published",
+      "commit_sha": "5e10ebfd2e31b25ee4afca84a378466e18b6d638",
+      "pr_url": null,
+      "post_path": "content/posts/2025-12-09-analogue-n64-4k-restock.md",
+      "image_path": "assets/images/2025-12-09/analogue-n64-4k-restock.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://www.theverge.com/news/840068/analogue-3d-transparent-funtastic-limited-edition",
+          "snippet": "The vibrant transparent models will be available \u201cin highly limited quantities,\u201d and they'll cost mo",
+          "title": "Analogue is restocking its 4K N64 and making it more colorful",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        },
+        {
+          "number": 2,
+          "url": "https://www.theverge.com/news/826302/analogue-3d-console-nintendo-64-restock-price-increase",
+          "snippet": "Analogue has announced its reimagined and upgraded 4K version of the Nintendo 64, the Analogue 3D, i",
+          "title": "The Analogue 3D will be available again next week, but ...",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        },
+        {
+          "number": 3,
+          "url": "https://x.com/verge/status/1998080958285918530",
+          "snippet": "The Verge (@verge). 31 likes. Analogue is restocking its 4K N64 and making it more colorful.",
+          "title": "Analogue is restocking its 4K N64 and making it more ...",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        },
+        {
+          "number": 4,
+          "url": "https://www.analogue.co/3d",
+          "snippet": "Analogue 3D is 100% compatible with every original N64 game ever made. Region Free. Bluetooth LE. Du",
+          "title": "3D - Analogue",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        },
+        {
+          "number": 5,
+          "url": "https://forum.kerbalspaceprogram.com/topic/226088-112xwip-restock-recolour-5088/",
+          "snippet": "It is recommended to install TURD to color parts which are not affected by Restock, as is I have fou",
+          "title": "[1.12.x][WIP] Restock Recolour [50.88%]",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        },
+        {
+          "number": 6,
+          "url": "https://www.facebook.com/61555720295109/posts/restock-alert-we-have-expanded-our-shirt-options-to-include-several-new-colors-w/122240265842190676/",
+          "snippet": "Restock alert! We have expanded our shirt options to include several new colors. We also have sticke",
+          "title": "Restock alert! We have expanded our shirt options to ...",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        },
+        {
+          "number": 7,
+          "url": "https://www.reddit.com/r/labubu/comments/1ipriqw/restock_is_easy_heres_how_i_do_it/",
+          "snippet": "I'm new to the Labubu scene, is it easier to go for the set rather than the individual? I've also he",
+          "title": "r/labubu - Restock is easy! Here's how I do it!",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        },
+        {
+          "number": 8,
+          "url": "https://www.polygon.com/n64-console-analogue-3d-restock-retro-colors-preorder/",
+          "snippet": "Analogue's restock of the 3D console goes live on Tuesday at 8 a.m. PST/11 a.m. EST/4 p.m. GMT at th",
+          "title": "N64 replacement Analogue 3D coming back in Y2K colors",
+          "accessed_date": "2025-12-09 18:19:35.857242"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [1]",
+          "description": "Could not verify claim against source: With its ability to play original N64 cartridges, ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: As technology continues to advance, retro gaming e...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [3]",
+          "description": "Could not verify claim against source: With its unique design and impressive features, th...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [4]",
+          "description": "Could not verify claim against source: With its region-free design and Bluetooth LE and d...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [8]",
+          "description": "Could not verify claim against source: Whether you're a seasoned retro gamer or just look...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "This console is 100% compatibl...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "co/3d)\n   > Analogue 3D is 100...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "88%]](https://forum...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:19:35.857242"
+    },
+    {
+      "topic": "The Winter Ball Update Patch Notes - Disney Dreamlight Valley",
+      "slug": "disney-dreamlight-valley-winter-ball-update-patch-notes",
+      "title": "Disney Dreamlight Valley Winter Ball Update Patch Notes",
+      "status": "published",
+      "commit_sha": "d462763732fe892226394275a4d63736b5c9f72d",
+      "pr_url": null,
+      "post_path": "content/posts/2025-12-09-disney-dreamlight-valley-winter-ball-update-patch-notes.md",
+      "image_path": "assets/images/2025-12-09/disney-dreamlight-valley-winter-ball-update-patch-notes.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://disneydreamlightvalley.com/en/news/update-dec-10-2025",
+          "snippet": "Disney Dreamlight Valley's The Winter Ball free update arrives on December 10th, 2025. ... News: Wis",
+          "title": "The Winter Ball Update Patch Notes",
+          "accessed_date": "2025-12-09 18:20:09.288177"
+        },
+        {
+          "number": 2,
+          "url": "https://www.ign.com/wikis/disney-dreamlight-valley/The_Winter_Ball_Update_Patch_Notes",
+          "snippet": "As of the Winter Ball Update, Disney Dreamlight Valley players can now make use of Dynamic Dreamligh",
+          "title": "The Winter Ball Update Patch Notes - Disney Dreamlight ...",
+          "accessed_date": "2025-12-09 18:20:09.288177"
+        },
+        {
+          "number": 3,
+          "url": "https://www.reddit.com/r/videogames/comments/1kq9d7k/new_update_released_major_bug_fixes_gameplay/",
+          "snippet": "Crucial bug fixes and stability improvements. Enhanced gameplay mechanics for smoother magic casting",
+          "title": "New Update Released: Major Bug Fixes & Gameplay ...",
+          "accessed_date": "2025-12-09 18:20:09.288177"
+        },
+        {
+          "number": 4,
+          "url": "https://www.windowscentral.com/gaming/arc-raiders-new-update-blocks-a-major-exploit-and-the-devs-solution-is-genuinely-hilarious",
+          "snippet": "ARC Raiders' new update blocks a major exploit \u2014 and the devs' solution is genuinely hilarious \u00b7 Key",
+          "title": "ARC Raiders' new update blocks a major exploit",
+          "accessed_date": "2025-12-09 18:20:09.288177"
+        },
+        {
+          "number": 5,
+          "url": "https://www.facebook.com/groups/1374497390170218/posts/1959069261713025/",
+          "snippet": "Devs are working on it. They advised players to restart the game, if the same problems occur, please",
+          "title": "Why is it after a major update there are way more bugs in ...",
+          "accessed_date": "2025-12-09 18:20:09.288177"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [5]",
+          "description": "Could not verify claim against source: Some players have reported that the update has fix...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "According to the game's develo...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:20:09.288177"
+    },
+    {
+      "topic": "Exclusive / Commerce to open up exports of Nvidia H200 chips to China - https-//www.semafor.com",
+      "slug": "nvidia-h200-chip-exports-to-china",
+      "title": "Nvidia H200 Chip Exports to China Set to Resume",
+      "status": "published",
+      "commit_sha": "1fdfcf8add4de6959921478f99a49f2e94ec7cfd",
+      "pr_url": null,
+      "post_path": "content/posts/2025-12-09-nvidia-h200-chip-exports-to-china.md",
+      "image_path": "assets/images/2025-12-09/nvidia-h200-chip-exports-to-china.jpg",
+      "sources": [
+        {
+          "number": 1,
+          "url": "https://www.semafor.com/article/12/08/2025/commerce-to-open-up-exports-of-nvidia-h200-chips-to-china",
+          "snippet": "Nvidia will be given permission to ship the advanced chips to \u201capproved customers\u201d in China and othe",
+          "title": "Trump says Nvidia can sell H200 AI chips to China",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 2,
+          "url": "https://www.reddit.com/r/NVDA_Stock/comments/1phjrda/finally_us_to_open_up_exports_of_nvidia_h200/",
+          "snippet": "Historically, China has been about 15% of Nvidia revenue till 2024. As Jensen has said, China could ",
+          "title": "Finally: US to open up exports of Nvidia H200 chips to China",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 3,
+          "url": "https://www.linkedin.com/posts/mlfrank_exclusive-commerce-to-open-up-exports-of-activity-7403894819380576256-Xox2",
+          "snippet": "The US is going to allow AI chip exports to China - with a catch. Nvidia cannot ship state-of-the-ar",
+          "title": "Commerce to open up exports of Nvidia H200 chips to China",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 4,
+          "url": "https://www.reuters.com/world/china/us-open-up-exports-nvidia-h200-chips-china-semafor-reports-2025-12-08/",
+          "snippet": "The United States will allow Nvidia's H200 processors, its second-best artificial intelligence chips",
+          "title": "US to allow Nvidia H200 chip shipments to China, Trump ...",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 5,
+          "url": "https://nypost.com/2025/12/09/business/china-to-restrict-access-to-nvidia-chips-as-trump-looks-to-lift-export-curbs-report/",
+          "snippet": "China is set to limit access to Nvidia's advanced H200 chips \u2013 even after President Trump said the U",
+          "title": "China to restrict access to Nvidia chips as Trump looks ...",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 6,
+          "url": "https://www.nvidia.com/en-us/data-center/h200/",
+          "snippet": "The NVIDIA H200 GPU supercharges generative AI and high-performance computing (HPC) workloads with g",
+          "title": "nvidia h200 gpu",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 7,
+          "url": "https://lenovopress.lenovo.com/lp1944-nvidia-h200-141gb-gpu",
+          "snippet": "The NVIDIA H200 Tensor Core GPU supercharges generative AI and high-performance computing (HPC) work",
+          "title": "ThinkSystem NVIDIA H200 141GB GPUs Product Guide",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 8,
+          "url": "https://uvation.com/articles/the-nvidia-h200-gpu-and-the-dawn-of-hardware-aware-ai-infrastructure",
+          "snippet": "Discover the NVIDIA H200 Tensor Core GPU, engineered for Large Language Models with 141 GB memory an",
+          "title": "The NVIDIA H200 GPU and the Dawn of Hardware-Aware ...",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 9,
+          "url": "https://www.bis.doc.gov/index.php/policy-guidance/deemed-exports/deemed-exports-faqs/faq/48-what-technologies-are-subject-to-the-commerce-department-controls",
+          "snippet": "Generally, technologies subject to the Export Administration Regulations (EAR) are those which are i",
+          "title": "Deemed Exports FAQs - What technologies are subject to ...",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        },
+        {
+          "number": 10,
+          "url": "https://2009-2017.state.gov/strategictrade/overview/index.htm",
+          "snippet": "The U.S. Government controls exports of sensitive equipment, software and technology as a means to p",
+          "title": "Overview of U.S. Export Control System",
+          "accessed_date": "2025-12-09 18:20:42.749001"
+        }
+      ],
+      "issues": [
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [2]",
+          "description": "Could not verify claim against source: China has historically accounted for around 15% of...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [6]",
+          "description": "Could not verify claim against source: jpg\nmeta_description: US Commerce to allow Nvidia ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [7]",
+          "description": "Could not verify claim against source: The H200's capabilities make it an ideal solution ...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [8]",
+          "description": "Could not verify claim against source: 8 TB/s bandwidth, the H200 is engineered to enhanc...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [9]",
+          "description": "Could not verify claim against source: Nvidia's H200 chips are subject to the Commerce De...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "unverified_citation",
+          "severity": "warning",
+          "location": "Citation [10]",
+          "description": "Could not verify claim against source: The US Commerce Department regulates exports of se...",
+          "suggestion": "Verify manually or mark with [citation needed]"
+        },
+        {
+          "type": "citation_needed",
+          "severity": "info",
+          "location": "com/r/NVDA_Stock/comments/1phj...",
+          "description": "Factual claim may need citation",
+          "suggestion": "Add citation or verify claim"
+        }
+      ],
+      "publish_time": "2025-12-09 18:20:42.749001"
+    }
+  ],
+  "errors": [],
+  "config_snapshot": {
+    "github": {
+      "token": "ghp_****1Yih",
+      "repo": "shradder-dot-root/TrendBloggerAgent",
+      "branch": "main",
+      "author_name": "TrendBot",
+      "author_email": "trendbot@yourdomain.com",
+      "auto_publish": true,
+      "publish_mode": "direct_commit"
+    },
+    "llm": {
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "api_key": "gsk_****IJ9d",
+      "azure_endpoint": "",
+      "azure_deployment": "",
+      "azure_api_version": "2024-02-01",
+      "max_tokens_per_request": 4096,
+      "requests_per_minute": 30
+    },
+    "search": {
+      "provider": "serpapi",
+      "api_key": "408d****5895",
+      "bing_endpoint": "https://api.bing.microsoft.com/v7.0/search",
+      "requests_per_minute": 100,
+      "cache_ttl_hours": 24
+    },
+    "news": {
+      "provider": "newsapi",
+      "api_key": "c3cb****87f7",
+      "requests_per_day": 100
+    },
+    "image": {
+      "provider": "unsplash",
+      "unsplash_access_key": "your****here",
+      "pexels_api_key": "your****here",
+      "dalle_api_key": "",
+      "stability_api_key": "",
+      "default_size": "1024x512",
+      "prefer_royalty_free": true
+    },
+    "trends": {
+      "enabled": true,
+      "geo": "US",
+      "timeframe": "now 1-d"
+    },
+    "reddit": {
+      "enabled": false,
+      "client_id": "",
+      "client_secret": "",
+      "user_agent": "TrendBloggerAgent/1.0",
+      "subreddits": [
+        "technology",
+        "news",
+        "worldnews"
+      ]
+    },
+    "content": {
+      "default_length_min": 700,
+      "default_length_max": 1200,
+      "news_length_min": 450,
+      "news_length_max": 700,
+      "howto_length_min": 900,
+      "howto_length_max": 1500,
+      "topics_per_run": 10,
+      "max_candidates": 30,
+      "posts_folder": "content/posts",
+      "images_folder": "assets/images",
+      "logs_folder": "logs"
+    },
+    "schedule": {
+      "enabled": true,
+      "cron": "30 3 * * *",
+      "timezone": "UTC"
+    },
+    "logging": {
+      "level": "INFO",
+      "format": "json",
+      "mask_secrets": true,
+      "log_to_file": true,
+      "log_to_console": true
+    },
+    "safety": {
+      "min_viable_topics": 5,
+      "max_retries": 2,
+      "retry_backoff_base": 2,
+      "require_citation": true,
+      "plagiarism_check": false,
+      "auto_publish_after_days": 30
+    },
+    "rate_limits": {
+      "search_rpm": 60,
+      "news_rpd": 100,
+      "llm_rpm": 20,
+      "github_rpm": 30,
+      "image_rpm": 30
+    }
+  }
+}
